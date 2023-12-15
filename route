@@ -51,7 +51,7 @@ def find_optimal_route(client, orders):
 
 def process_excel_file(file_path):
     # Replace 'YOUR_API_KEY' with your actual Google Maps API key.
-    api_key = 'AIzaSyC_GuBUAWRbdl0LQA4vhgCu6ZcloFPSDm8'
+    api_key = 'Add YOUR API KEY'
     gmaps = googlemaps.Client(key=api_key)
 
     df = pd.read_excel(file_path)
